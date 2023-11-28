@@ -18,7 +18,10 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-a=float(input(""))b=float(input(""))a,b=b,aprint("Swapped values are:",a,b)
+a=float(input(""))
+b=float(input(""))
+a,b=b,a
+print("Swapped values are:",a,b)
 
 ## OUTPUT:
 ![Alt text](image.png.png)
